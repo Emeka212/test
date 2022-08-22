@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="pages/css/add_gigs1.css">
+<section class="addGigs1">
+    <section class="top">
+        <h1>Gigs</h1>
+    </section>
+    <section class="body">
+        <span>New gig</span>
+        <div class="row">
+            <div class="leftCon">
+                <div class="row selected">
+                    <div class="circle"></div>Basic Data
+                </div>
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="circle"></div>Renumeration
+                </div>
+            </div>
+            <div class="rightCon">
+                
+                <!--===============================================-->
+                <!--  -->
+                <!--===============================================-->
+                <div class="row">
+                    <div class="column">
+                        <span>Role</span>
+                        <input type="text">
+                    </div>
+                    <div class="column">
+                        <span>Company</span>
+                        <input type="text">
+                    </div>
+                </div>
+                
+                <!--===============================================-->
+                <!--  -->
+                <!--===============================================-->
+                <div class="row">
+                    <div class="column">
+                        <span>Location</span>
+                        <select value="" class="country" onchange="getState()">
+                            <option selected disabled hidden>Country</option>
+                        </select>
+                    </div>
+                    <div class="column">
+                        <span>Company</span>
+                        <select value="0" class="state">
+                            <option selected disabled hidden>State/region</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Address">
+                </div>
+                
+                <!--===============================================-->
+                <!--  -->
+                <!--===============================================-->
+                <div class="column">
+                    <span>Add tags</span>
+                    <div class="row">
+                        <div class="tagsCon">
+                            <div class="tag">Remote X</div>
+                            <div class="tag">Onsite X</div>
+                        </div>
+                        <form action="">
+                            <input type="text" placeholder="Add more Tags">
+                        </form>
+                    </div>
+                </div>
+                
+                <!--===============================================-->
+                <!--  -->
+                <!--===============================================-->
+                <div class="suggest">
+                    Suggested tags: 
+                    <span>full time</span>
+                    <span>contact</span>
+                    <span>freelance</span>
+                </div>
+                <div class="btn-row">
+                    <button onclick="cancle()">Cancle</button>
+                    <button onclick="nextPage()">Continue</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<script src="pages/js/add_gigs1.js"></script>

@@ -1,0 +1,231 @@
+/*========================================================*/
+/* SECTION BODY */
+/*========================================================*/
+#body .addGigs1 {
+    overflow-y: scroll;
+    padding-bottom: 100px;
+    height: calc(100vh - 140px);
+}
+
+#body .addGigs1 .top {
+    padding: 20px 50px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+#body .addGigs1 .top h1 {
+    opacity: 0.8;
+    font-size: 30px;
+    color: #2C263D;
+    font-weight: bold;
+}
+
+#body .addGigs1 .body {
+    padding: 20px 50px;
+}
+
+#body .addGigs1 .body span {
+    color: #565D74;
+    opacity: 0.8;
+}
+
+#body .addGigs1 .body>.row {
+    display: flex;
+    margin-top: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#body .addGigs1 .body .row .leftCon {
+    opacity: 1;
+    width: 250px;
+    height: 196px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #F6F6F6;
+    box-shadow: 0px 30px 50px #0000000D;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+#body .addGigs1 .body .row .leftCon .row {
+    margin: 0;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}
+
+#body .addGigs1 .body .row .leftCon .row .circle {
+    opacity: 1;
+    width: 11px;
+    height: 11px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+#body .addGigs1 .body .row .leftCon .row.selected .circle {
+    border: 3px solid #E18700;
+}
+
+#body .addGigs1 .body .row .leftCon .divider {
+    width: 0;
+    height: 20px;
+    margin: 5px 0 0 4px;
+    border: 1px solid #F6F6F6;
+}
+
+#body .addGigs1 .body .row .leftCon .selected {
+    color: #E18700;
+}
+
+#body .addGigs1 .body .row .rightCon {
+    opacity: 1;
+    width: 750px;
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid #ECECEC;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+/*========================================================*/
+/*  */
+/*========================================================*/
+#body .addGigs1 .body .row .rightCon>.row {
+    margin: 0;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#body .addGigs1 .body .row .rightCon>.row .column:first-child {
+    margin-right: 10px;
+}
+
+#body .addGigs1 .body .row .rightCon>.row .column {
+    display: flex;
+    flex-direction: column;
+}
+
+#body .addGigs1 .body .row .rightCon>.row .column span {
+    font-size: 13px;
+}
+
+#body .addGigs1 .body .row .rightCon>.row .column input {
+    opacity: 1;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    font-size: 13px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+/*========================================================*/
+/*  */
+/*========================================================*/
+
+#body .addGigs1 .body .row .rightCon>.row .column select {
+    opacity: 1;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+#body .addGigs1 .body .row .rightCon>.row>input {
+    opacity: 1;
+    width: 610px;
+    height: 40px;
+    outline: none;
+    font-size: 13px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+/*========================================================*/
+/* TAGS SECTION */
+/*========================================================*/
+#body .addGigs1 .body .row .rightCon>.column {
+    margin: 30px 0;
+}
+
+#body .addGigs1 .body .row .rightCon>.column span {
+    font-size: 13px;
+}
+
+#body .addGigs1 .body .row .rightCon>.column .row {
+    margin: 0;
+    width: 610px;
+    padding: 5px;
+    display: flex;
+    min-height: 40px;
+    margin-top: 15px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #E5E5E5;
+}
+
+#body .addGigs1 .body .row .rightCon>.column .row .tagsCon {
+    display: flex;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+#body .addGigs1 .body .row .rightCon>.column .row .tagsCon .tag {
+    padding: 5px;
+    cursor: pointer;
+    color: #E18700;
+    margin-right: 5px;
+    border-radius: 6px;
+    background: #fbb30b7c 0% 0% no-repeat padding-box;
+}
+
+#body .addGigs1 .body .row .rightCon>.column .row input {
+    outline: none;
+    font-size: 13px;
+}
+
+#body .addGigs1 .body .row .rightCon>.column .row input::placeholder {
+    font-size: 13px;
+}
+
+/*========================================================*/
+/* BUTTON AND TAG SUGESSTION SECTION */
+/*========================================================*/
+#body .addGigs1 .body .row .rightCon>.suggest {
+    font-size: 14px;
+    color: #565D74;
+}
+
+#body .addGigs1 .body .row .rightCon>.suggest span {
+    margin: 0 5px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#body .addGigs1 .body .row .rightCon>.btn-row {
+    display: flex;
+    padding-right: 40px;
+    justify-content: end;
+}
+
+#body .addGigs1 .body .row .rightCon>.btn-row button {
+    opacity: 1;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    font-size: 14px;
+    background: none;
+    color: #565D74;
+    border-radius: 10px;
+}
+
+#body .addGigs1 .body .row .rightCon>.btn-row button:last-child {
+    color: #fff;
+    margin-left: 20px;
+    background: #2F417E 0% 0% no-repeat padding-box;
+}
