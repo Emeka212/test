@@ -1,6 +1,6 @@
 function goBack(){
     $("#body").load("pages/add_gigs1.html")
 }
-function addGid(){
+function addGig(){
     $("#body").load("pages/gigs.html")
 }

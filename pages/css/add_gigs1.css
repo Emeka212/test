@@ -169,27 +169,33 @@
     border: 1px solid #E5E5E5;
 }
 
-#body .addGigs1 .body .row .rightCon>.column .row .tagsCon {
+#body .addGigs1 .body .row .rightCon .column .row .tagsCon {
     display: flex;
     font-size: 13px;
     margin-right: 10px;
 }
 
-#body .addGigs1 .body .row .rightCon>.column .row .tagsCon .tag {
-    padding: 5px;
-    cursor: pointer;
+#body .addGigs1 .body .row .rightCon .column .row .tagsCon .tag {
     color: #E18700;
     margin-right: 5px;
+    padding: 5px 7.5px;
     border-radius: 6px;
     background: #fbb30b7c 0% 0% no-repeat padding-box;
 }
 
-#body .addGigs1 .body .row .rightCon>.column .row input {
+#body .addGigs1 .body .row .rightCon .column .row .tagsCon .tag b{
+    font-family: monospace;
+    font-weight: bolder;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#body .addGigs1 .body .row .rightCon .column .row input {
     outline: none;
     font-size: 13px;
 }
 
-#body .addGigs1 .body .row .rightCon>.column .row input::placeholder {
+#body .addGigs1 .body .row .rightCon .column .row input::placeholder {
     font-size: 13px;
 }
 

@@ -35,7 +35,11 @@ body{
     outline: none;
     padding-left: 50px;
     border-radius: 16px;
+    background: #FBFBFF;
     border: 1px solid #ECECEC;
+}
+.rightSection > header > input::placeholder{
+    color: #c8c4c4;;
 }
 
 .rightSection > header > .rightSide img{

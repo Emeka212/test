@@ -2,7 +2,7 @@
 /* SECTION BODY */
 /*========================================================*/
 #body .addGigs2 {
-    overflow-y: scroll;
+    overflow-y: auto;
     padding-bottom: 100px;
     height: calc(100vh - 140px);
 }

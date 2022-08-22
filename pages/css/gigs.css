@@ -1,0 +1,165 @@
+/*========================================================*/
+/* SECTION BODY */
+/*========================================================*/
+#body .gigs {
+    overflow-y: auto;
+    padding-bottom: 100px;
+    height: calc(100vh - 140px);
+}
+
+.row {
+    margin: 0;
+}
+
+/*========================================================*/
+/* TOP CONTAINER */
+/*========================================================*/
+#body .gigs .topCon {
+    padding: 20px 50px 0;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#body .gigs .topCon .firstRow {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#body .gigs .topCon .firstRow button {
+    opacity: 1;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 13px;
+    border-radius: 10px;
+    border: 1px solid #F6F6F6;
+    background: #2F417E 0% 0% no-repeat padding-box;
+}
+
+#body .gigs .topCon .firstRow button b {
+    margin-left: 20px;
+}
+
+#body .gigs .topCon .secondRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+#body .gigs .topCon .secondRow>div {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#body .gigs .topCon .secondRow>div.active {
+    border-bottom: 3px solid #FBB30B;
+}
+
+#body .gigs .topCon .secondRow>div span {
+    font-size: 14.5px;
+}
+
+#body .gigs .topCon .secondRow>div.active span {
+    font-weight: bold;
+}
+
+#body .gigs .topCon .secondRow>div .con {
+    opacity: 1;
+    height: 15px;
+    font-size: 10px;
+    color: #FBB30B;
+    padding: 0px 5px;
+    margin: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: #fbb30b2b 0% 0% no-repeat padding-box;
+}
+
+#body .gigs .topCon .secondRow>div.active .con {
+    color: #fff;
+    background: #FBB30B 0% 0% no-repeat padding-box;
+}
+
+/*========================================================*/
+/* BOTTOM CONTAINER:  FILTER ROW SECTION */
+/*========================================================*/
+#body .gigs .bottomCon {
+    padding: 20px 50px;
+}
+
+#body .gigs .bottomCon .filterRow {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+#body .gigs .bottomCon .filterRow .con {
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #e9e6e6;
+}
+
+#body .gigs .bottomCon .filterRow .con:first-child {
+    padding-left: 30px;
+}
+
+#body .gigs .bottomCon .filterRow .con.active {
+    color: #FBB30B;
+    border: 1px solid #FBB30B;
+}
+
+#body .gigs .bottomCon .filterRow .con img {
+    margin-right: 10px;
+}
+
+/*========================================================*/
+/* BOTTOM CONTAINER: GIGS TABLE FLITER SECTION */
+/*========================================================*/
+#body .gigs .bottomCon .tableFliter {
+    margin: 30px 0;
+    display: flex;
+    font-size: 13px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+#body .gigs .bottomCon .tableFliter input{
+    opacity: 0;
+}
+#body .gigs .bottomCon .tableFliter .space{
+    width: 50px;
+    opacity: 0;
+}
+
+/*========================================================*/
+/* BOTTOM CONTAINER: GIGS TABLE SECTION */
+/*========================================================*/
+#body .gigs .bottomCon .gigsColumn .gigsCon {
+    opacity: 1;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 1px solid #F6F6F6;
+    justify-content: space-between;
+    box-shadow: 0px 3px 6px #00000003;
+    background: #ffffffda 0% 0% no-repeat padding-box;
+}
+#body .gigs .bottomCon .gigsColumn .gigsCon button{
+    width: 100px;
+    height: 35px;
+    outline: none;
+    font-size: 13px;
+    color: #FBB30B;
+    border-radius: 7px;
+    background: #fbb30b2d;
+}
